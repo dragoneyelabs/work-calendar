@@ -186,6 +186,9 @@
               color,
             },
             dates: new Date(d.date),
+            popover: {
+              label: d.name,
+            },
           });
         })
       },
